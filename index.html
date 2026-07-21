@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classroom Financial Assistance</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#00b14f,#00d26a);
+    color:#222;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.card{
+    width:340px;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-18px);
+    }
+}
+
+.money{
+    font-size:110px;
+    margin-bottom:10px;
+}
+
+.amount{
+    font-size:42px;
+    color:#00a64f;
+    font-weight:bold;
+}
+
+.subtitle{
+    margin-top:10px;
+    color:#666;
+}
+
+.button{
+    margin-top:25px;
+    padding:15px 30px;
+    border:none;
+    background:#00b14f;
+    color:white;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.button:hover{
+    background:#009845;
+}
+
+section{
+    padding:80px 0;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.person{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.badge{
+    display:inline-block;
+    background:#dfffe9;
+    color:#009845;
+    padding:5px 10px;
+    border-radius:20px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:white;
+}
+</style>
+
+</head>
+<body>
+
+<div class="hero">
+
+<div class="card">
+
+<div class="money">💵</div>
+
+<div class="amount">₱500</div>
+
+<p class="subtitle">
+Classroom Financial Assistance
+</p>
+
+<p style="margin-top:15px">
+This page is for a voluntary classroom support program. Eligible classmates may apply for a ₱500 financial assistance.
+</p>
+
+<a href="192.168.100.99" class="button">Apply for Support</a>
+
+</div>
+
+</div>
+
+<section>
+
+<div class="container">
+
+<h2>Recent Recipients</h2>
+
+<div class="grid">
+
+<div class="person">
+<h3>Maria S.</h3>
+<p>Received assistance for school supplies.</p>
+<div class="badge">✔ ₱500 Received</div>
+</div>
+
+<div class="person">
+<h3>John D.</h3>
+<p>Received transportation allowance.</p>
+<div class="badge">✔ ₱500 Received</div>
+</div>
+
+<div class="person">
+<h3>Angela P.</h3>
+<p>Received meal assistance.</p>
+<div class="badge">✔ ₱500 Received</div>
+</div>
+
+<div class="person">
+<h3>Michael R.</h3>
+<p>Received project assistance.</p>
+<div class="badge">✔ ₱500 Received</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+Created for a classroom financial assistance initiative.
+</footer>
+
+</body>
+</html>
+
